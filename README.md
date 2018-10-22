@@ -7,7 +7,7 @@
 * In the docker shell, Go into the folder in the repository named Docker and run the following command
 	`docker build -t jupyter/news-tweet-integration .`
 	This step might take upto 45 minutes to complete. This step creates a Docker image with all packages required to run the Jupyter notebook in this repository.
-* Go back one folder up to the repository home and download these csv files from this GoogleDrive. Request permission. This is where the sample data is. The data files are approximately 500MB in total.
+* Go back one folder up to the repository home and download these csv files from this GoogleDrive. Request permission. This is where the sample data is. The data files are approximately 500MB in total. Please email the owner of this repository for a copy of the data.
 * Download the csv files into the repository home
 * Run the following command:
 	`docker run -it -p 8888:8888 -v <absolute_path_to_repository_home>/:home/jovyan/work jupyter/news-tweet-integration`
