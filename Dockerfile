@@ -17,5 +17,4 @@ USER jovyan
 RUN pip install pybind11
 RUN pip install nmslib
 RUN pip install tensorflow-hub
-ADD . /home/jovyan/work
 WORKDIR /home/jovyan/work
